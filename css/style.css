@@ -47,8 +47,8 @@
 /***************************/
 
 .main-nav-list {
-  list-style: none;
   display: flex;
+  list-style: none;
   align-items: center;
   gap: 4.8rem;
 }
@@ -94,6 +94,7 @@
   background-color: #fff;
   border-radius: 0.3rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.075);
+  transform: translateY(-10rem);
 }
 
 .form-box {
@@ -101,8 +102,8 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  transform: translateY(-10rem);
-  background: linear-gradient(to bottom, #000000 50%, #f7f9fb 50%);
+  background-color: #f7f9fb;
+  /* background: linear-gradient(to bottom, #000000 50%, #f7f9fb 50%); */
 }
 
 .form-main {
@@ -171,13 +172,8 @@ select {
 /***************************/
 
 .section-cta {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10rem;
   background-color: #f7f9fb;
-  transform: translateY(-10rem);
+  position: relative;
 }
 
 .heading-secondary {
@@ -186,8 +182,80 @@ select {
   align-items: center;
 }
 
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 20rem; */
+}
+
 .img-cta {
-  transform: translate(60%);
-  /* right: -50%; */
-  /* top: 0; */
+  /* position: absolute; */
+  right: 0;
+  bottom: 0;
+}
+
+.img-box {
+}
+
+.cars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.car-header {
+  padding: 2rem;
+}
+
+.car-title {
+  font-family: "Barlow";
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+.car-tag {
+  font-family: "Noto Sans JP";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #666f80;
+}
+
+.properties-list {
+  list-style: none;
+  font-family: "Noto Sans JP";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  padding: 1.9rem;
+  line-height: 2;
+}
+
+.list-item {
+  color: #666f80;
+  display: flex;
+  justify-content: space-between;
+}
+
+.value {
+  color: #111111;
+}
+
+.date {
+  color: #164da8;
+}
+
+.car hr {
+  height: 1px;
+  border-width: 0;
+  color: #dae2f2;
+  background-color: #dae2f2;
+}
+
+.car {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }

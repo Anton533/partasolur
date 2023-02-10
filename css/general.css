@@ -104,6 +104,7 @@ hr {
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 1.7rem;
+  /* width: 100%; */
 }
 
 .btn img {
@@ -123,4 +124,8 @@ hr {
 .btn--inverted {
   border: 1px solid #164da8;
   color: #164da8;
+}
+
+.heading-secondary {
+  text-align: center;
 }
