@@ -102,7 +102,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #f7f9fb;
+  background-color: #164da80d;
   /* background: linear-gradient(to bottom, #000000 50%, #f7f9fb 50%); */
 }
 
@@ -128,7 +128,6 @@
 .first-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* margin-bottom: 1.5rem; */
   margin: 3rem 0;
   gap: 1.5rem;
 }
@@ -136,7 +135,6 @@
 .second-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* margin-bottom: 1.5rem; */
   margin: 3rem 0;
   gap: 1.5rem;
 }
@@ -172,41 +170,69 @@ select {
 /***************************/
 
 .section-cta {
-  background-color: #f7f9fb;
+  background-color: #164da80d;
+  margin-bottom: 10rem;
+  /* padding-bottom: 11rem;
+  background-image: url(../img/Vector_3.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 64.7rem auto;
   position: relative;
+  max-width: 144rem;
+  margin: 0 auto; */
 }
 
-.heading-secondary {
+.section-cta-container {
+  padding-bottom: 11rem;
+  background-image: url(../img/Vector_3.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 64.7rem auto;
+  position: relative;
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.heading--cta {
   margin-bottom: 4rem;
-  line-height: 5.8rem;
   align-items: center;
 }
 
-.test {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* height: 20rem; */
+.section-cta-content-box {
+  text-align: center;
 }
 
 .img-cta {
-  /* position: absolute; */
+  position: absolute;
   right: 0;
   bottom: 0;
+  z-index: 0;
 }
 
-.img-box {
+/***************************/
+/* SECTION REGISTERED CARS */
+/***************************/
+
+.heading--reg-cars {
+  margin-bottom: 3rem;
+}
+
+.car-img {
+  object-fit: cover;
+  width: 100%;
+  height: 19.4rem;
 }
 
 .cars {
   display: grid;
+  text-align: start;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 5rem;
 }
 
 .car-header {
+  /* width: 31rem; */
   padding: 2rem;
 }
 
@@ -215,6 +241,7 @@ select {
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.4rem;
+  margin-bottom: 0.4rem;
 }
 
 .car-tag {
@@ -230,9 +257,8 @@ select {
   font-family: "Noto Sans JP";
   font-size: 1.4rem;
   font-weight: 400;
-  line-height: 1.4rem;
-  padding: 1.9rem;
-  line-height: 2;
+  line-height: 2rem;
+  padding: 2rem 2rem 2.1rem;
 }
 
 .list-item {
@@ -241,11 +267,19 @@ select {
   justify-content: space-between;
 }
 
-.value {
-  color: #111111;
+.list-item:not(:last-child) {
+  margin-bottom: 0.8rem;
 }
 
-.date {
+.list-item b {
+  color: #111111;
+  font-weight: normal;
+}
+
+.list-item--date b {
+  font-family: "Noto Sans JP";
+  font-size: 1.4rem;
+  font-weight: 700;
   color: #164da8;
 }
 
@@ -257,5 +291,180 @@ select {
 }
 
 .car {
+  border-radius: 0.3rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.registered-cars-content-box {
+  text-align: center;
+  margin-bottom: 11rem;
+}
+
+.car__banner-box {
+  background-color: #e2e5e9;
+  border-radius: 0.3rem;
+  padding: 2rem;
+  /* width: 31rem; */
+  /* height: 40rem; */
+}
+
+.car__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Barlow";
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  opacity: 0.33;
+  border: 1px dashed rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+
+/***************************/
+/* SECTION ABOUT US */
+/***************************/
+
+.about-us {
+  background-color: #fff;
+  margin-bottom: 9rem;
+}
+
+.heading--about-us {
+  margin-bottom: 3rem;
+}
+
+.about-us__container .divider {
+  margin-bottom: 3.9rem;
+}
+
+.about-us__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.about-us h2 {
+  text-align: left;
+}
+
+.about-us__text {
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #454545;
+  margin-bottom: 4.4rem;
+  margin-right: 6rem;
+}
+
+.about-us__container {
+  text-align: left;
+  padding-top: 9rem;
+  padding-left: 7rem;
+  padding-bottom: 3rem;
+}
+
+.about-us__img {
+  object-fit: cover;
+  width: 100%;
+  height: 59.2rem;
+}
+
+/***************************/
+/* SECTION TESTIMONIALS */
+/***************************/
+
+.testimonials {
+  margin-bottom: 16.2rem;
+}
+
+.heading--testimonials {
+  margin-bottom: 3rem;
+}
+
+.testimonial {
+  text-align: center;
+  box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.3rem;
+  margin: 0 auto;
+}
+
+.testimonial {
+  width: 80rem;
+  background-color: #fff;
+  padding: 5rem 4rem 5.6rem;
+  text-align: center;
+}
+
+.testimonial-icon {
+  margin-bottom: 3.5rem;
+}
+
+.testimonial-text {
+  font-family: "Barlow";
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 3.4rem;
+  text-align: center;
+  margin-bottom: 4.3rem;
+}
+
+.testimonial-autor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-autor-info {
+  margin-left: 1.5rem;
+  text-align: center;
+}
+
+.testimonial-name {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.testimonial-job-title {
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+/***************************/
+/* SECTION ABOUT US */
+/***************************/
+.footer {
+  background-color: #000000;
+}
+
+.footer-logo {
+  height: 5.6rem;
+  padding-top: 7rem;
+  padding-bottom: 6.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  font-family: Barlow;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #fff;
 }

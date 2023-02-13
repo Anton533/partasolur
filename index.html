@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Noto+Sans+JP&display=swap"
-      rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@400;700&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/general.css" />
 
-    <title>Partasolur</title>
-  </head>
-  <body>
-      <header class="header">
-        <div class="container">
-          <div class="header-box">
+  <title>Partasolur</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-box">
         <a href="#">
           <img class="logo" alt="Partasolur logo" src="img/Group 13.png" />
         </a>
@@ -38,180 +34,388 @@
               <a class="main-nav-link" href="#testimonials">SÖLUAÐILAR</a>
             </li>
 
-          <button class="btn btn--nav">
-            <img src="img/Vector.svg" class="btn-icon" alt="" /> FYRIRSPURN
-          </button>
+            <button class="btn btn--nav">
+              <img src="img/Vector.svg" class="btn-icon" alt="" /> FYRIRSPURN
+            </button>
         </nav>
       </div>
       <hr>
-      </div>
-      </header>
+    </div>
+  </header>
 
-    <main>
-      <section class="section-hero">
-        <h1 class="heading-primary">
-          Allar helstu partasölur <span class="e8dfc9">á einum stað.</span>
-        </h1>
-      </section>
+  <main>
+    <section class="section-hero">
+      <h1 class="heading-primary">
+        Allar helstu partasölur <span class="e8dfc9">á einum stað.</span>
+      </h1>
+    </section>
 
-      <section class="form-box">
+    <section class="form-box">
       <form action="" class="form">
 
         <div class="form-main">
           <div class="form-group">
-          <label for="">Velja framleiðanda</label>
-          <select name="Velja framleiðanda" id=""><option>Select</option></select>
+            <label for="">Velja framleiðanda</label>
+            <select name="Velja framleiðanda" id="">
+              <option>Select</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="">Velja undirgerð</label>
+            <select name="Velja undirgerð" id="">
+              <option value="">Select</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="">Árgerð frá</label>
+            <select name="Velja undirgerð" id="">
+              <option>Select</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="Árgerð til">Árgerð til</label>
+            <select name="Velja undirgerð" id="">
+              <option disabled>Select</option>
+              <option>2000</option>
+              <option>2001</option>
+              <option>2002</option>
+              <option>2003</option>
+              <option>2004</option>
+              <option>2005</option>
+            </select>
+          </div>
         </div>
 
-        <div class="form-group">
-          <label for="">Velja undirgerð</label>
-          <select name="Velja undirgerð" id="">
-            <option value="">Select</option>
-          </select>
+
+        <div class="form-additional">
+          <hr>
+          <div class="first-row">
+            <div class="form-group">
+              <label for="">Eldsneytistegund</label>
+              <select name="Velja framleiðanda" id="">
+                <option>Select</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="">Gerð ökutækis </label>
+              <select name="Velja undirgerð" id="">
+                <option value="">Select</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="">Land</label>
+              <select name="Velja undirgerð" id="">
+                <option>Select</option>
+              </select>
+            </div>
+          </div>
+
+          <hr>
+
+
+          <div class="second-row">
+            <div class="form-group-4">
+              <label for="">Afl</label>
+              <select name="Velja framleiðanda" id="">
+                <option>Select</option>
+              </select>
+            </div>
+
+            <div class="form-group-5">
+              <label for="">Vélastærð</label>
+              <select name="Velja undirgerð" id="">
+                <option value="">Select</option>
+              </select>
+            </div>
+
+            <div class="form-group-6">
+              <label for="">Skipting</label>
+              <select name="Velja undirgerð" id="">
+                <option>Select</option>
+              </select>
+            </div>
+
+            <div class="form-group-7">
+              <label for="">Staða</label>
+              <select name="Velja undirgerð" id="">
+                <option>Select</option>
+              </select>
+            </div>
+          </div>
+          <hr>
         </div>
 
-        <div class="form-group">
-          <label for="">Árgerð frá</label>
-          <select name="Velja undirgerð" id=""><option>Select</option></select>
+        <div class="form-button">
+          <button class="btn btn--inverted" type="button">MORE SEARCH OPTIONS</button>
+          <button class="btn btn--colored" type="submit"> <img src="img/search.svg" alt="">LEITA</button>
         </div>
-
-        <div class="form-group">
-          <label for="Árgerð til">Árgerð til</label>
-          <select name="Velja undirgerð" id="">
-            <option disabled>Select</option>
-            <option>2000</option>
-            <option>2001</option>
-            <option>2002</option>
-            <option>2003</option>
-            <option>2004</option>
-            <option>2005</option>
-          </select>
-        </div>
-      </div>
-
-
-      <div class="form-additional">
-        <hr>
-    <div class="first-row">
-        <div class="form-group">
-        <label for="">Eldsneytistegund</label>
-        <select name="Velja framleiðanda" id=""><option>Select</option></select>
-      </div>
-
-      <div class="form-group">
-        <label for="">Gerð ökutækis </label>
-        <select name="Velja undirgerð" id="">
-          <option value="">Select</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="">Land</label>
-        <select name="Velja undirgerð" id=""><option>Select</option></select>
-      </div>
-    </div>
-
-    <hr>
-
-      
-<div class="second-row">
-      <div class="form-group-4">
-        <label for="">Afl</label>
-        <select name="Velja framleiðanda" id=""><option>Select</option></select>
-      </div>
-
-      <div class="form-group-5">
-        <label for="">Vélastærð</label>
-        <select name="Velja undirgerð" id="">
-          <option value="">Select</option>
-        </select>
-      </div>
-
-      <div class="form-group-6">
-        <label for="">Skipting</label>
-        <select name="Velja undirgerð" id=""><option>Select</option></select>
-      </div>
-
-      <div class="form-group-7">
-        <label for="">Staða</label>
-        <select name="Velja undirgerð" id=""><option>Select</option></select>
-      </div>
-    </div>
-    <hr>
-    </div>
-
-<div class="form-button">
-  <button class="btn btn--inverted" type="button">MORE SEARCH OPTIONS</button>
-  <button class="btn btn--colored" type="submit"> <img src="img/search.svg" alt="">LEITA</button>
-</div>
       </form>
     </section>
-    
-      <section class="section-cta">
-        <div class="test">
-          <h2 class="heading-secondary"><span class="heading-text-300">Smelltu hér til að senda fyrirspurn</span> <br> á allar skráðar partasölur.</h2>
-          <button class="btn btn--colored"> <img src="img/Vector.svg" alt=""> SENDA FYRIRSPURN</button>
+
+    <section class="section-cta">
+      <div class="section-cta-container">
+
+        <div class="section-cta-content-box">
+          <h2 class="heading-secondary heading--cta"><span class="heading-text-300">Smelltu hér til að senda
+              fyrirspurn</span> <br> á
+            allar skráðar partasölur.</h2>
+          <button class="btn btn--colored"> <img src="img/Vector.svg" alt="">SENDA FYRIRSPURN</button>
         </div>
+      </div>
 
-        <div class="img-box">
+      <!-- <img src="img/Vector_3.png" alt="" class="img-cta"> -->
+    </section>
 
-          <img src="img/Vector_3.png" alt=""
-          class="img-cta">
-        </div>
-      </section>
+    <section class="registered-cars">
+      <div class="container">
 
-      <section class="registered-cars">
-        <h2 class="heading-secondary">Nýlegar skráðir bílar</h2>
-        <div class="cars container">
+        <div class="registered-cars-content-box">
+          <h2 class="heading-secondary heading--reg-cars">Nýlegar skráðir bílar</h2>
 
-          <article class="car">
-            <img src="img/cars/image 18.jpg" alt="">
-            <div class="car-content">
-              <div class="car-header">
-                <p class="car-title">Skoda Octavia</p>
-                <p class="car-tag">Bílapartasalan Austurhlíð</p>
+          <div class="divider divider--center"> </div>
+
+          <div class="cars">
+            <article class="car">
+              <img class="car-img" src="img/cars/Skoda.jpg" alt="">
+              <div class="car-content">
+                <div class="car-header">
+                  <p class="car-title">Skoda Octavia</p>
+                  <p class="car-tag">Bílapartasalan Austurhlíð</p>
+                </div>
+                <hr>
+                <ul class="properties-list">
+                  <li class="list-item">Eldsneytistegund
+                    <b>Bensín</b>
+                  </li>
+                  <li class="list-item">Framleiðsluland
+                    <b>Tékkland</b>
+                  </li>
+                  <li class="list-item list-item--date">Nýskráning
+                    <b>27.07.2017</b>
+                  </li>
+                </ul>
               </div>
-              <hr>
-              <ul class="properties-list">
-                <li class="list-item">Eldsneytistegund<b class="value">Bensín</b></li>
-                <li class="list-item">Framleiðsluland<b class="value">Tékkland</b></li>
-                <li class="list-item">Nýskráning<b class="date">27.07.2017</b></li>
-              </ul>
-            </div>
-          </article>
+            </article>
 
-          <div class="car">
-            <img src="img/cars/image 20.jpg" alt="">
-            <div class="car-content">
-              <p class="car-title">Skoda Octavia</p>
-              <p class="car-tag">Japanskar vélar</p>
+            <article class="car">
+              <img class="car-img" src="img/cars/Hyundai.jpg" alt="">
+              <div class="car-content">
+                <div class="car-header">
+                  <p class="car-title">Hyundai i20</p>
+                  <p class="car-tag">Japanskar vélar</p>
+                </div>
+                <hr>
+                <ul class="properties-list">
+                  <li class="list-item">Eldsneytistegund
+                    <b>Bensín</b>
+                  </li>
+                  <li class="list-item">Framleiðsluland
+                    <b>Tékkland</b>
+                  </li>
+                  <li class="list-item list-item--date">Nýskráning
+                    <b>13.04.2016</b>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="car">
+              <img class="car-img" src="img/cars/Chevrolet.png" alt="">
+              <div class="car-content">
+                <div class="car-header">
+                  <p class="car-title">Chevrolet Captiva</p>
+                  <p class="car-tag">Bílapartasalan Austurhlíð</p>
+                </div>
+                <hr>
+                <ul class="properties-list">
+                  <li class="list-item">Eldsneytistegund
+                    <b>Bensín</b>
+                  </li>
+                  <li class="list-item">Framleiðsluland
+                    <b>Suður Kórea</b>
+                  </li>
+                  <li class="list-item list-item--date">Nýskráning
+                    <b>12.08.2011</b>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <div class="car__banner-box">
+              <div class="car__banner">310x400 Banner</div>
             </div>
+
+            <article class="car">
+              <img class="car-img" src="img/cars/Isuzu.png" alt="">
+              <div class="car-content">
+                <div class="car-header">
+                  <p class="car-title">Isuzu D-Max</p>
+                  <p class="car-tag">Japanskar vélar</p>
+                </div>
+                <hr>
+                <ul class="properties-list">
+                  <li class="list-item">Eldsneytistegund
+                    <b>Bensín</b>
+                  </li>
+                  <li class="list-item">Framleiðsluland
+                    <b>Japan</b>
+                  </li>
+                  <li class="list-item list-item--date">Nýskráning
+                    <b>27.07.2017</b>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="car">
+              <img class="car-img" src="img/cars/Skoda.jpg" alt="">
+              <div class="car-content">
+                <div class="car-header">
+                  <p class="car-title">Skoda Octavia</p>
+                  <p class="car-tag">Bílapartasalan Austurhlíð</p>
+                </div>
+                <hr>
+                <ul class="properties-list">
+                  <li class="list-item">Eldsneytistegund
+                    <b>Bensín</b>
+                  </li>
+                  <li class="list-item">Framleiðsluland
+                    <b>Tékkland</b>
+                  </li>
+                  <li class="list-item list-item--date">Nýskráning
+                    <b>27.07.2017</b>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="car">
+              <img class="car-img" src="img/cars/Hyundai.jpg" alt="">
+              <div class="car-content">
+                <div class="car-header">
+                  <p class="car-title">Hyundai i20</p>
+                  <p class="car-tag">Japanskar vélar</p>
+                </div>
+                <hr>
+                <ul class="properties-list">
+                  <li class="list-item">Eldsneytistegund
+                    <b>Bensín</b>
+                  </li>
+                  <li class="list-item">Framleiðsluland
+                    <b>Tékkland</b>
+                  </li>
+                  <li class="list-item list-item--date">Nýskráning
+                    <b>13.04.2016</b>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="car">
+              <img class="car-img" src="img/cars/Chevrolet.png" alt="">
+              <div class="car-content">
+                <div class="car-header">
+                  <p class="car-title">Chevrolet Captiva</p>
+                  <p class="car-tag">Bílapartasalan Austurhlíð</p>
+                </div>
+                <hr>
+                <ul class="properties-list">
+                  <li class="list-item">Eldsneytistegund
+                    <b>Bensín</b>
+                  </li>
+                  <li class="list-item">Framleiðsluland
+                    <b>Suður Kórea</b>
+                  </li>
+                  <li class="list-item list-item--date">Nýskráning
+                    <b>12.08.2011</b>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
           </div>
 
-          <div class="car">
-            <img src="img/cars/image 22.png" alt="">
-            <div class="car-content">
-              <p class="car-title">Skoda Octavia</p>
-              <p class="car-tag">Japanskar vélar</p>
-            </div>
-          </div>
+          <button class="btn btn--colored btn--all-cars"> <img src="/img/Frame.svg" alt=""> BROWSE ALL CARS</button>
+        </div>
+      </div>
 
-          <div class="car">
-            <img src="img/cars/image 35.png" alt="">
-            <div class="car-content">
-              <p class="car-title">Skoda Octavia</p>
-              <p class="car-tag">Japanskar vélar</p>
-            </div>
+    </section>
+
+    <section class="about-us">
+      <div class="about-us__box">
+
+        <div class="about-us__container">
+
+          <h2 class="heading-secondary heading--about-us">About Partasölur.is</h2>
+          <div class="divider"></div>
+          <div class="about-us__text">
+
+            <p class="text">Magna felis rhoncus massa eget. Sit mi commodo velit dui risus. Etiam commodo
+              pulvinar
+              neque nam. Faucibus in
+              eu hendrerit.</p><br>
+            <p class="text">Diam lectus vestibulum ultricies amet et proin. Adipiscing et faucibus aliquet
+              diam
+              enim
+              amet bibendum rutrum.
+              Leo scelerisque venenatis mauris mattis volutpat. Euismod convallis scelerisque fringilla sit.</p>
           </div>
-          <div class="car">
-            <img src="img/cars/image 18.jpg" alt="">
-            <div class="car-content">
-              <p class="car-title">Skoda Octavia</p>
-              <p class="car-tag">Japanskar vélar</p>
-            </div>
+          <button class="btn btn--colored">HAFA SAMBAND</button>
+        </div>
+        <img class="about-us__img" src="img/about-us.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2 class="heading-secondary heading--testimonials">Testimonials</h2>
+      <div class="divider divider--center"> </div>
+      <figure class="testimonial">
+        <img class="testimonial-icon" src="img/Vector-testimonial.svg" alt="">
+        <blockquote class="testimonial-text">”Interdum sapien convallis magnis proin. Blandit nibh dictum sit eget amet.
+          Non magna nec nunc egestas pharetra. Cursus massa eu purus quam. Tempus facilisis accumsan aliquam ultricies
+          eget. Tellus sit sapien scelerisque maecenas arcu nulla posuere.”</blockquote>
+        <div class="testimonial-autor">
+          <img class="testimonial-img" src="img/Group 7.jpg" alt="">
+          <div class="testimonial-autor-info">
+            <p class="testimonial-name">John Smith</p>
+            <p class="testimonial-job-title">General Manager</p>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-box container">
+      <div class="footer-logo"><img src="img/Group 13.png" alt=""></div>
+      <hr>
+      <nav class="footer-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">FORSÍÐA</a></li>
+          <li><a class="main-nav-link" href="#meals">BÍLAR</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">SÖLUAÐILAR</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">FYRIRSPURN</a>
+          </li>
+      </nav>
+      <hr>
+      <address class="contacts">
+        <p class="copyright"> &copy; Partasölur ehf.</p>
+        <p>
+          <a href="tel:663 9700">663 9700</a>
+          <br>
+          <a href="mailto:info@partasolur.is">info@partasolur.is</a>
+        </p>
+      </address>
+    </div>
+  </footer>
+</body>
+
 </html>
