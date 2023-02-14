@@ -66,6 +66,7 @@ hr {
   border-width: 0;
   color: #555;
   background-color: #555;
+  opacity: 0.35;
 }
 
 /***************************/

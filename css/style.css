@@ -28,20 +28,6 @@
   align-items: center;
 }
 
-.section-hero {
-  background-color: #000000;
-  background-image: url(../img/pexels-sarmad-mughal-305070\ 2.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-
-  height: 48.2rem;
-}
-
 /***************************/
 /* NAVIGATION */
 /***************************/
@@ -81,6 +67,24 @@
 
 .e8dfc9 {
   color: #e8dfc9;
+}
+
+/***************************/
+/* HERO */
+/***************************/
+
+.section-hero {
+  background-color: #000000;
+  background-image: url(../img/pexels-sarmad-mughal-305070\ 2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  height: 48.2rem;
 }
 
 /***************************/
@@ -440,11 +444,10 @@ select {
 /* SECTION ABOUT US */
 /***************************/
 .footer {
-  background-color: #000000;
+  background-color: #111;
 }
 
-.footer-logo {
-  height: 5.6rem;
+.footer-logo-box {
   padding-top: 7rem;
   padding-bottom: 6.8rem;
   display: flex;
@@ -452,19 +455,45 @@ select {
   align-items: center;
 }
 
+.footer-logo {
+  height: 5.6rem;
+}
+
 .footer-nav {
   padding: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5rem;
+  letter-spacing: 0.1em;
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.1em;
+  color: #ffffff;
 }
 
 .contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  gap: 5.3rem;
   padding-top: 7rem;
   padding-bottom: 7rem;
   font-family: Barlow;
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.4rem;
+  color: #fff;
+}
+
+.contacts-icon {
+  margin-right: 1.7rem;
+}
+
+.footer-link {
+  text-decoration: none;
   color: #fff;
 }
