@@ -1,0 +1,22 @@
+/**************************/
+/* BELOW 416px (Phones) */
+/**************************/
+
+@media (max-width: 26em) {
+  .form-main {
+    grid-template-columns: 1fr;
+  }
+
+  .form-button {
+    grid-template-columns: 1fr;
+    margin-bottom: 1rem;
+  }
+
+  .heading-primary,
+  .heading-secondary {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+  }
+}

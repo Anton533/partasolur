@@ -56,7 +56,8 @@ html {
 
 body {
   font-family: "Noto Sans JP", sans-serif;
-  line-height: 1;
+  line-height: 1.4rem;
+  /* line-height: 1.7; */
   font-weight: 400;
   background-color: #f7f9fb;
 }
@@ -90,6 +91,10 @@ hr {
   font-family: "Barlow", sans-serif;
 }
 
+.heading-secondary {
+  text-align: center;
+}
+
 /***************************/
 /* BUTTON */
 /***************************/
@@ -121,9 +126,34 @@ hr {
   color: #fff;
 }
 
+.btn--nav:link,
+.btn--nav:visited {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn--nav:hover,
+.btn--nav:active {
+  border: 1px solid #8aa6d3;
+  color: #8aa6d3;
+}
+
 .btn--colored {
   border: none;
   background-color: #164da8;
+}
+
+.btn--colored:link,
+.btn--colored:visited {
+  border: none;
+  background-color: #164da8;
+}
+
+.btn--colored:hover,
+.btn--colored:active {
+  border: 1px solid #164da8;
+  color: #164da8;
+  background-color: #fff;
 }
 
 .btn--inverted {
@@ -131,8 +161,17 @@ hr {
   color: #164da8;
 }
 
-.heading-secondary {
-  text-align: center;
+.btn--inverted:link,
+.btn--inverted:visited {
+  border: 1px solid #164da8;
+  color: #164da8;
+}
+
+.btn--inverted:hover,
+.btn--inverted:active {
+  border: none;
+  background-color: #164da8;
+  color: #fff;
 }
 
 .divider {

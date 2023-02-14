@@ -41,7 +41,7 @@
 
 .main-nav-link:link,
 .main-nav-link:visited {
-  display: inline-block;
+  /* display: inline-block; */
   text-decoration: none;
   color: #fff;
   font-weight: 700;
@@ -51,8 +51,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #dae2f2;
-  text-decoration: underline;
+  color: #8aa6d3;
 }
 
 .heading-primary,
@@ -249,7 +248,7 @@ select {
 }
 
 .car-tag {
-  font-family: "Noto Sans JP";
+  /* font-family: "Noto Sans JP"; */
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2rem;
@@ -441,7 +440,7 @@ select {
 }
 
 /***************************/
-/* SECTION ABOUT US */
+/* SECTION FOOTER */
 /***************************/
 .footer {
   background-color: #111;
@@ -496,4 +495,20 @@ select {
 .footer-link {
   text-decoration: none;
   color: #fff;
+  display: flex;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #8aa6d3;
+}
+
+.copyright {
+  display: flex;
 }
