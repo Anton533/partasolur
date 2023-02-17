@@ -3,6 +3,10 @@
 /**************************/
 
 @media (max-width: 26em) {
+  .main-nav-list {
+    display: none;
+  }
+
   .form-main {
     grid-template-columns: 1fr;
   }
@@ -10,6 +14,32 @@
   .form-button {
     grid-template-columns: 1fr;
     margin-bottom: 1rem;
+  }
+
+  .cars {
+    grid-template-columns: 1fr;
+  }
+
+  .about-us__box {
+    grid-template-columns: 1fr;
+  }
+
+  .about-us__img {
+    object-fit: contain;
+    grid-row: 1;
+  }
+
+  .testimonial {
+    width: 100%;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    /* height: 100%; */
+  }
+
+  .contacts {
+    flex-direction: column;
   }
 
   .heading-primary,
