@@ -85,6 +85,10 @@
 /* FORM */
 /***************************/
 
+.section-form {
+  background-color: #164da80d;
+}
+
 .form {
   display: inline-block;
   width: 105rem;
@@ -100,7 +104,6 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #164da80d;
 }
 
 .form-main {
@@ -173,7 +176,7 @@
 
 .section-cta-content-box {
   padding-bottom: 11rem;
-  background-image: url(../img/Vector_3.png);
+  background-image: url(../img/cta-img.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 64.7rem auto;
@@ -192,12 +195,12 @@
   font-weight: 300;
 }
 
-.img-cta {
+/* .img-cta {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 0;
-}
+} */
 
 /***************************/
 /* SECTION REGISTERED CARS */

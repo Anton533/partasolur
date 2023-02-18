@@ -1,10 +1,52 @@
 /**************************/
-/* BELOW 416px (Phones) */
+/* BELOW 560px (Phones) */
 /**************************/
 
-@media (max-width: 26em) {
+@media (max-width: 35em) {
+  .container {
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+
+  hr {
+    height: 1px;
+    border-width: 0;
+    color: #ffffff;
+    background-color: #ffffff;
+    opacity: 0.33;
+  }
+
+  .logo {
+    height: 5rem;
+    margin: 2rem auto;
+  }
+
   .main-nav-list {
     display: none;
+  }
+
+  .section-hero {
+    background-size: 165%;
+  }
+
+  .heading-primary,
+  .heading-secondary {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+
+  .section-form {
+    background-color: #000;
+  }
+
+  .form {
+    padding: 2rem;
+    transform: translateY(-10rem);
+  }
+
+  .form-main {
+    gap: 1.5rem;
+    margin-bottom: 3rem;
   }
 
   .form-main {
@@ -14,6 +56,16 @@
   .form-button {
     grid-template-columns: 1fr;
     margin-bottom: 1rem;
+    row-gap: 1rem;
+  }
+
+  .section-cta {
+    padding: 0 2rem;
+    margin-bottom: 0;
+  }
+
+  .section-cta-content-box {
+    background-size: 100%;
   }
 
   .cars {
@@ -35,7 +87,7 @@
 
   .footer-nav {
     flex-direction: column;
-    /* height: 100%; */
+    height: 100%;
   }
 
   .contacts {
@@ -50,3 +102,24 @@
     text-align: center;
   }
 }
+
+/* @media (max-width: 560px) {
+  .logo {
+    height: 4rem;
+    margin: 1rem auto;
+  }
+  
+  .main-nav {
+    display: none;
+  }
+  
+  .btn--nav {
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  .btn-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+  } */
