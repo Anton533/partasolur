@@ -203,7 +203,7 @@
 } */
 
 /***************************/
-/* SECTION REGISTERED CARS */
+/* REGISTERED CARS SECTION */
 /***************************/
 
 .heading--reg-cars {
@@ -211,6 +211,7 @@
 }
 
 .car-img {
+  display: block;
   object-fit: cover;
   width: 100%;
   height: 19.4rem;
@@ -238,18 +239,12 @@
 }
 
 .car-tag {
-  /* font-family: "Noto Sans JP"; */
-  font-size: 1.4rem;
-  font-weight: 400;
   line-height: 2rem;
   color: #666f80;
 }
 
 .properties-list {
   list-style: none;
-  font-family: "Noto Sans JP";
-  font-size: 1.4rem;
-  font-weight: 400;
   line-height: 2rem;
   padding: 2rem 2rem 2.1rem;
 }
@@ -270,8 +265,6 @@
 }
 
 .list-item--date b {
-  font-family: "Noto Sans JP";
-  font-size: 1.4rem;
   font-weight: 700;
   color: #164da8;
 }
@@ -298,8 +291,7 @@
   border-radius: 0.3rem;
   padding: 2rem;
 
-  /* width: 31rem; */
-  /* height: 40rem; */
+  min-height: 40rem;
 }
 
 .car__banner {
@@ -317,7 +309,7 @@
 }
 
 /***************************/
-/* SECTION ABOUT US */
+/* ABOUT US SECTION */
 /***************************/
 
 .about-us {
@@ -345,8 +337,6 @@
 }
 
 .about-us__text {
-  font-family: "Noto Sans JP";
-  font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: #454545;
@@ -364,11 +354,10 @@
 .about-us__img {
   object-fit: cover;
   width: 100%;
-  height: 59.2rem;
 }
 
 /***************************/
-/* SECTION TESTIMONIALS */
+/* TESTIMONIALS SECTION */
 /***************************/
 
 .testimonials {
@@ -381,16 +370,12 @@
 
 .testimonial {
   text-align: center;
-  box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.25);
-  border-radius: 0.3rem;
-  margin: 0 auto;
-}
-
-.testimonial {
   width: 80rem;
-  background-color: #fff;
   padding: 5rem 4rem 5.6rem;
-  text-align: center;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+  box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
 }
 
 .testimonial-icon {
@@ -402,7 +387,7 @@
   font-size: 2.4rem;
   font-weight: 300;
   line-height: 3.4rem;
-  text-align: center;
+  text-align: left;
   margin-bottom: 4.3rem;
 }
 
@@ -420,7 +405,7 @@
 
 .testimonial-autor-info {
   margin-left: 1.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .testimonial-name {
@@ -431,14 +416,11 @@
 }
 
 .testimonial-job-title {
-  font-family: "Noto Sans JP";
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 2rem;
+  color: #666f80;
 }
 
 /***************************/
-/* SECTION FOOTER */
+/* FOOTER SECTION */
 /***************************/
 .footer {
   background-color: #111;
@@ -454,6 +436,27 @@
 
 .footer-logo {
   height: 5.6rem;
+}
+
+.footer-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.footer-nav-link:link,
+.footer-nav-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:active {
+  color: #8aa6d3;
 }
 
 .footer-nav {

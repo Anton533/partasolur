@@ -16,41 +16,60 @@
     opacity: 0.33;
   }
 
-  .logo {
-    height: 5rem;
-    margin: 2rem auto;
-  }
-
-  .main-nav-list {
-    display: none;
-  }
-
-  .section-hero {
-    background-size: 165%;
-  }
-
   .heading-primary,
   .heading-secondary {
     font-size: 3.2rem;
     line-height: 3.8rem;
   }
 
+  /***************************/
+  /* HEADER */
+  /***************************/
+
+  .logo {
+    height: 5rem;
+    margin: 2rem auto;
+  }
+
+  /***************************/
+  /* NAVIGATION */
+  /***************************/
+
+  .main-nav-list {
+    display: none;
+  }
+
+  /***************************/
+  /* HERO */
+  /***************************/
+
+  .section-hero {
+    background-size: 165%;
+    height: 42.2rem;
+  }
+  .heading-primary__colored-part {
+    display: block;
+  }
+
+  /***************************/
+  /* FORM */
+  /***************************/
+
   .section-form {
-    background-color: #000;
+    background: linear-gradient(to bottom, #000 68%, #ebeff8 50%);
+    margin-bottom: -4.8rem;
   }
 
   .form {
-    padding: 2rem;
-    transform: translateY(-10rem);
-  }
-
-  .form-main {
-    gap: 1.5rem;
-    margin-bottom: 3rem;
+    /* height: 62rem; */
+    padding: 2.4rem 2rem 3rem;
+    transform: translateY(-8rem);
   }
 
   .form-main {
     grid-template-columns: 1fr;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
   }
 
   .form-button {
@@ -59,17 +78,70 @@
     row-gap: 1rem;
   }
 
+  /***************************/
+  /* CTA SECTION */
+  /***************************/
+
+  .section-cta br {
+    display: none;
+  }
+
   .section-cta {
     padding: 0 2rem;
-    margin-bottom: 0;
+    margin-bottom: 3.5rem;
   }
 
   .section-cta-content-box {
     background-size: 100%;
   }
+  .heading--cta {
+    margin-bottom: 3.4rem;
+  }
+
+  /***************************/
+  /* REGISTERED CARS SECTION */
+  /***************************/
+
+  .heading--reg-cars {
+    margin-bottom: 1.9rem;
+  }
+
+  .divider {
+    width: 1.5rem;
+    height: 0.5rem;
+    border-radius: 1rem;
+    background-color: #164da8;
+    margin-bottom: 2.5rem;
+  }
 
   .cars {
     grid-template-columns: 1fr;
+    margin-bottom: 4rem;
+  }
+
+  .car__banner-box {
+    justify-self: center;
+    width: 31rem;
+    min-height: 40rem;
+  }
+
+  .registered-cars-content-box {
+    margin-bottom: 4rem;
+  }
+
+  /***************************/
+  /* ABOUT US SECTION */
+  /***************************/
+
+  .about-us {
+    margin-bottom: 0rem;
+  }
+
+  .about-us__container {
+    padding-top: 3.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
   }
 
   .about-us__box {
@@ -81,9 +153,57 @@
     grid-row: 1;
   }
 
+  .heading--about-us {
+    margin-bottom: 1.9rem;
+  }
+
+  .about-us__container .divider {
+    margin-bottom: 1.4rem;
+  }
+
+  .about-us__text {
+    line-height: 2.6rem;
+    color: #454545;
+    margin-bottom: 4rem;
+    margin-right: 0rem;
+  }
+
+  /***************************/
+  /* TESTIMONIALS SECTION */
+  /***************************/
+
+  .testimonials {
+    /* padding: 4rem; */
+    padding: 3.1rem 4rem 4rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .testimonial-icon {
+    margin-bottom: 1.5rem;
+  }
+
   .testimonial {
     width: 100%;
+    padding: 3rem 2rem;
   }
+
+  .heading--testimonials {
+    margin-bottom: 1.9rem;
+  }
+  .testimonial-text {
+    font-family: "Noto Sans JP";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #454545;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    text-align: left;
+  }
+
+  /***************************/
+  /* FOOTER SECTION */
+  /***************************/
 
   .footer-nav {
     flex-direction: column;
@@ -100,6 +220,26 @@
     line-height: 3.8rem;
     font-family: "Barlow", sans-serif;
     text-align: center;
+  }
+
+  .footer-logo-box {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+
+  .footer-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .footer-nav {
+    padding: 4.6rem 3rem 4.7rem;
+  }
+
+  .contacts {
+    gap: 3rem;
+    padding-top: 3.9rem;
+    padding-bottom: 5rem;
   }
 }
 
