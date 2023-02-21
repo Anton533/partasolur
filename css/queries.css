@@ -2,7 +2,7 @@
 /* BELOW 560px (Phones) */
 /**************************/
 
-@media (max-width: 35em) {
+@media (max-width: 48em) {
   .container {
     padding: 0 2rem;
     margin: 0 auto;
@@ -35,8 +35,69 @@
   /* NAVIGATION */
   /***************************/
 
+  .main-nav {
+    background-color: #164da8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    transition: all 0.3s ease-in-out;
+
+    /* opacity: 0; */
+    pointer-events: none;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+  }
+
+  .main-nav--center {
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 5;
+  }
+
+  .nav-open .main-nav {
+    /* opacity: 1; */
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
   .main-nav-list {
-    display: none;
+    flex-direction: column;
+    overflow-y: auto;
+    /* height: 100%; */
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .menu-btn {
+    display: inline-block;
+  }
+
+  /* STICKY NAVIGATION */
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
   }
 
   /***************************/
@@ -56,14 +117,15 @@
   /***************************/
 
   .section-form {
-    background: linear-gradient(to bottom, #000 68%, #ebeff8 50%);
-    margin-bottom: -4.8rem;
+    background: linear-gradient(to bottom, #000 50.2rem, #164da80d 11.8rem);
+    margin-bottom: 3.5rem;
+    background-color: #164da80d;
   }
 
   .form {
     /* height: 62rem; */
     padding: 2.4rem 2rem 3rem;
-    transform: translateY(-8rem);
+    /* transform: translateY(-8rem); */
   }
 
   .form-main {

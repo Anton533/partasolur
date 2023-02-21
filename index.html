@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/general.css" />
   <link rel="stylesheet" href="css/queries.css" />
+  <link rel="stylesheet" href="css/burger-btn.css" />
+
+  <script defer src="js/script.js"></script>
 
   <title>Partasolur</title>
 </head>
@@ -29,16 +32,34 @@
 
         <nav class="main-nav">
           <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#how">FORSÍÐA</a></li>
-            <li><a class="main-nav-link" href="#meals">BÍLAR</a></li>
+            <li><a class="main-nav-link" href="#">FORSÍÐA</a></li>
+            <li><a class="main-nav-link" href="#">BÍLAR</a></li>
+            <!-- <li><a class="main-nav-link" href="#">FORSÍÐA</a></li>
+            <li><a class="main-nav-link" href="#">BÍLAR</a></li> -->
             <li>
-              <a class="main-nav-link" href="#testimonials">SÖLUAÐILAR</a>
+              <a class="main-nav-link" href="#">SÖLUAÐILAR</a>
             </li>
 
             <button class="btn btn--nav">
               <img src="img/icons/letter-icon.svg" class="btn-icon" alt="" /> FYRIRSPURN
             </button>
+
+            <!-- <li>
+              <a class="main-nav-link__last" href="#">FYRIRSPURN</a>
+            </li> -->
         </nav>
+
+        <!-- <button class="btn-mobile-nav">
+          <img class="icon-mobile-nav" src="img/icons/burger-menu-icon.svg" alt="">
+        </button> -->
+        <button type="button" class="menu-btn">
+          <div class="menu-btn__inner">
+            <span class="menu-btn__top"></span>
+            <span class="menu-btn__middle"></span>
+            <span class="menu-btn__bottom"></span>
+          </div>
+        </button>
+
       </div>
       <hr>
     </div>
@@ -398,13 +419,13 @@
       <hr>
       <nav class="footer-nav">
         <ul class="footer-nav-list">
-          <li><a class="footer-nav-link" href="#how">FORSÍÐA</a></li>
-          <li><a class="footer-nav-link" href="#meals">BÍLAR</a></li>
+          <li><a class="footer-nav-link" href="#">FORSÍÐA</a></li>
+          <li><a class="footer-nav-link" href="#">BÍLAR</a></li>
           <li>
-            <a class="footer-nav-link" href="#testimonials">SÖLUAÐILAR</a>
+            <a class="footer-nav-link" href="#">SÖLUAÐILAR</a>
           </li>
           <li>
-            <a class="footer-nav-link" href="#testimonials">FYRIRSPURN</a>
+            <a class="footer-nav-link" href="#">FYRIRSPURN</a>
           </li>
       </nav>
       <hr>
