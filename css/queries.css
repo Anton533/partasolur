@@ -1,5 +1,5 @@
 /**************************/
-/* BELOW 560px (Phones) */
+/* BELOW 768px (Phones) */
 /**************************/
 
 @media (max-width: 48em) {
@@ -76,10 +76,50 @@
     transform: translateX(0);
   }
 
+  .btn--nav {
+    display: none;
+  }
+
   .main-nav-list {
     flex-direction: column;
+    align-items: stretch;
+    padding: 2rem;
     overflow-y: auto;
-    /* height: 100%; */
+    margin: 0 auto;
+    min-width: 40rem;
+  }
+
+  .main-nav-link {
+    padding-right: 5rem;
+  }
+
+  .main-nav-list__item {
+    position: relative;
+  }
+
+  .main-nav-link::after {
+    content: url(../img/icons/chevron-icon.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .main-nav-link--last {
+    display: block;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+
+  .main-nav-link:hover,
+  .main-nav-link:active {
+    color: #8aa6d3;
   }
 
   .btn-mobile-nav {
@@ -95,7 +135,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
     z-index: 1000;
     transition: all 0.3s ease-in-out;
   }
@@ -106,8 +146,11 @@
 
   .section-hero {
     background-size: 165%;
-    height: 42.2rem;
+    height: 24rem;
+    margin-top: 9.1rem;
+    /* margin-bottom: 1rem; */
   }
+
   .heading-primary__colored-part {
     display: block;
   }
@@ -117,9 +160,9 @@
   /***************************/
 
   .section-form {
-    background: linear-gradient(to bottom, #000 50.2rem, #164da80d 11.8rem);
-    margin-bottom: 3.5rem;
-    background-color: #164da80d;
+    background: linear-gradient(to bottom, #000 51.4rem, #164da80d 11.8rem);
+    padding-bottom: 3.5rem;
+    padding-top: 1rem;
   }
 
   .form {
@@ -325,3 +368,10 @@
     height: 2rem;
     margin-right: 1rem;
   } */
+
+@media (max-width: 36em) {
+  .main-nav-list {
+    margin: 0;
+    min-width: 0;
+  }
+}
