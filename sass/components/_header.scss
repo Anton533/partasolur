@@ -1,0 +1,32 @@
+/***************************/
+/* HEADER */
+/***************************/
+
+.header {
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  font-family: "Barlow", sans-serif;
+  /* position: relative; */
+  background-color: #000000;
+}
+
+.header__box {
+  max-width: 144rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 5.5rem;
+  margin: 3rem auto;
+}
+
+@media (max-width: 48em) {
+  .header__logo {
+    height: 5rem;
+    margin: 2rem auto;
+  }
+}

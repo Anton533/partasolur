@@ -1,0 +1,34 @@
+/***************************/
+/* HERO */
+/***************************/
+
+.section-hero {
+  background-color: #000000;
+  background-image: url(../img/hero-img.jpg);
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  height: 37.4rem;
+}
+
+@media (max-width: 48em) {
+  /***************************/
+  /* HERO */
+  /***************************/
+
+  .section-hero {
+    background-image: url(../img/hero-img-mobile.jpg);
+    background-size: contain;
+    margin-top: 9.3rem;
+    height: 23rem;
+  }
+
+  .heading-primary__colored-part {
+    display: block;
+  }
+}

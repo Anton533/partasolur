@@ -6,6 +6,9 @@ const headerEl = document.querySelector(".header");
 const mainNavEl = document.querySelector(".main-nav");
 const mainNavList = document.querySelector(".main-nav-list");
 
+const btnMore = document.querySelector(".btn--more");
+const sectionForm = document.querySelector(".section-form");
+
 window.addEventListener(
   "resize",
   debounce(function () {
@@ -23,6 +26,10 @@ window.addEventListener(
 btnMobNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
   btnMobNavEl.classList.toggle("active");
+});
+
+btnMore.addEventListener("click", function () {
+  sectionForm.classList.toggle("form-open");
 });
 
 function debounce(func, timeout = 300) {

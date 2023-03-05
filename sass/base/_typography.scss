@@ -1,0 +1,41 @@
+.heading-primary,
+.heading-secondary {
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.heading-secondary {
+  text-align: center;
+}
+
+// .heading-primary,
+// .heading-secondary {
+//   font-size: 4.8rem;
+//   font-family: "Barlow", sans-serif;
+// }
+
+.heading-primary__colored-part {
+  color: #e8dfc9;
+}
+
+.divider {
+  height: 1rem;
+  width: 2rem;
+  border-radius: 1rem;
+  background-color: #164da8;
+  margin-bottom: 5rem;
+}
+
+.divider--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 48em) {
+  .heading-primary,
+  .heading-secondary {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+}

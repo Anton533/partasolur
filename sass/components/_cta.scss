@@ -1,0 +1,54 @@
+/***************************/
+/* CTA SECTION */
+/***************************/
+
+.section-cta {
+  background-color: #164da80d;
+  margin-bottom: 10rem;
+}
+
+.section-cta-content-box {
+  padding-bottom: 11rem;
+  background-image: url(../img/cta-img.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 64.7rem auto;
+  position: relative;
+  max-width: 144rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading--cta {
+  margin-bottom: 4rem;
+  align-items: center;
+}
+
+.heading-cta-text-weight-300 {
+  font-weight: 300;
+}
+
+/* .img-cta {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  } */
+
+@media (max-width: 48em) {
+  .section-cta br {
+    display: none;
+  }
+
+  .section-cta {
+    padding: 0 2rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .section-cta-content-box {
+    background-size: 100%;
+  }
+  .heading--cta {
+    margin-bottom: 3.4rem;
+  }
+}

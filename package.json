@@ -1,0 +1,14 @@
+{
+  "name": "partasolur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:sass": "sass sass:css --style compressed -w"
+  },
+  "author": "Anton",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}

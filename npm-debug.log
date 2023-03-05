@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/anton/.nvm/versions/node/v6.11.5/bin/node',
+1 verbose cli   '/Users/anton/.nvm/versions/node/v6.11.5/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev:sass' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.5
+4 verbose run-script [ 'predev:sass', 'dev:sass', 'postdev:sass' ]
+5 info lifecycle partasolur@1.0.0~predev:sass: partasolur@1.0.0
+6 silly lifecycle partasolur@1.0.0~predev:sass: no script for predev:sass, continuing
+7 info lifecycle partasolur@1.0.0~dev:sass: partasolur@1.0.0
+8 verbose lifecycle partasolur@1.0.0~dev:sass: unsafe-perm in lifecycle true
+9 verbose lifecycle partasolur@1.0.0~dev:sass: PATH: /Users/anton/.nvm/versions/node/v6.11.5/lib/node_modules/npm/bin/node-gyp-bin:/Users/anton/Developer/partasolur/node_modules/.bin:/Users/anton/.nvm/versions/node/v6.11.5/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/anton/Developer/flutter/bin:/Users/anton/Library/Android/sdk:/Users/anton/.pub-cache/bin
+10 verbose lifecycle partasolur@1.0.0~dev:sass: CWD: /Users/anton/Developer/partasolur
+11 silly lifecycle partasolur@1.0.0~dev:sass: Args: [ '-c', 'sass sass:css' ]
+12 silly lifecycle partasolur@1.0.0~dev:sass: Returned: code: 1  signal: null
+13 info lifecycle partasolur@1.0.0~dev:sass: Failed to exec dev:sass script
+14 verbose stack Error: partasolur@1.0.0 dev:sass: `sass sass:css`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/anton/.nvm/versions/node/v6.11.5/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/anton/.nvm/versions/node/v6.11.5/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+15 verbose pkgid partasolur@1.0.0
+16 verbose cwd /Users/anton/Developer/partasolur
+17 error Darwin 21.6.0
+18 error argv "/Users/anton/.nvm/versions/node/v6.11.5/bin/node" "/Users/anton/.nvm/versions/node/v6.11.5/bin/npm" "run" "dev:sass"
+19 error node v6.11.5
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error partasolur@1.0.0 dev:sass: `sass sass:css`
+22 error Exit status 1
+23 error Failed at the partasolur@1.0.0 dev:sass script 'sass sass:css'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the partasolur package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     sass sass:css
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs partasolur
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls partasolur
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
