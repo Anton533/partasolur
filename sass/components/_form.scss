@@ -15,7 +15,6 @@
   background-color: #fff;
   border-radius: 0.3rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.075);
-  /* transform: translateY(-10rem); */
 }
 
 .form-box {
@@ -39,6 +38,7 @@
 
 .form-open .form-additional {
   display: block;
+  position: relative;
 }
 
 .form-additional hr {
