@@ -32,13 +32,18 @@
 }
 
 .form-additional {
-  display: none;
-  margin: 3rem 0;
+  // display: none;
+  // margin: 3rem 0;
+  visibility: hidden;
+  height: 0;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .form-open .form-additional {
   display: block;
-  position: relative;
+  visibility: visible;
+  height: 300px;
 }
 
 .form-additional hr {
